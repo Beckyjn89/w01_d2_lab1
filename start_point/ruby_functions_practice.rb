@@ -45,5 +45,7 @@ def number_to_short_month_name(number)
   name = case number
   when 1
     "Jan"
+  when 4
+    "Apr"
   end
 end
