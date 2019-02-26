@@ -34,5 +34,7 @@ def number_to_full_month_name(number)
   name = case number
   when 1
     "January"
+  when 3
+    "March"
   end
 end
