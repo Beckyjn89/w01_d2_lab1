@@ -47,5 +47,7 @@ def number_to_short_month_name(number)
     "Jan"
   when 4
     "Apr"
+  when 10
+    "Oct"
   end
 end
